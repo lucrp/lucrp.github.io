@@ -7,9 +7,30 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Lucas Paiva</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="container">
+			<div class="card">
+				<h1>Hello! 👋</h1>
+				<p>My name is Lucas Ramos Paiva.</p>
+				<p>I'm a Brazilian web developer living in France 🇫🇷</p>
+				<p>Please, checkout my <a href="https://lucrp.github.io/online-cv">online resume</a>.</p>
+			</div>
+		</div>
 	</body>
 </html>
+
+<style>
+	body {
+		display:flex; flex-direction:column; justify-content:center;
+		min-height:100vh;
+	}
+
+	.container {
+		height: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>
